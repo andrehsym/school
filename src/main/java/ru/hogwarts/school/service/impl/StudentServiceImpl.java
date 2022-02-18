@@ -41,7 +41,7 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override //PUT
-    public Student editStudent(Student student) { //put
+    public Student editStudent(Student student) {
         students.put(student.getId(), student);
         return student;
     }
